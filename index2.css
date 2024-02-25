@@ -1,0 +1,15 @@
+.image-1-icon {
+  position: absolute;
+  top: 208px;
+  left: 447px;
+  width: 1025px;
+  height: 613px;
+  object-fit: cover;
+}
+.div {
+  width: 100%;
+  position: relative;
+  background-color: #ff8dd2;
+  height: 1383px;
+  overflow: hidden;
+}

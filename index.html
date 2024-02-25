@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Valentine from Arisha</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="slide-169-1">
+      <section class="section">Будешь моей?</section>
+      <div class="frame-wrapper">
+        <div class="inner-frame">
+          <a href="2.html">
+          <button class="but2"> да</button>
+          </a>
+          <style>
+            .but2 {
+            position: absolute;
+            border-radius: 100px;
+            padding: 50px 100px;
+            transform: translateY(-40px);
+          }</style>
+          <style>
+            button {
+              position: absolute;
+              border-radius: 100px;
+              padding: 50px 100px;
+              transform: translateY(130px);
+            }
+          </style>
+        </head>
+        <body>
+        
+        <button id="movingButton" onmouseover="moveButton(event)">нет</button>
+        
+        <script>
+        function moveButton(event) {
+          const button = document.getElementById('movingButton');
+          const randomX = Math.random() * (window.innerWidth - button.offsetWidth);
+          const randomY = Math.random() * (window.innerHeight - button.offsetHeight);
+        
+          button.style.left = randomX + '100px';
+          button.style.top = randomY + 'px';
+        }
+        </script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
